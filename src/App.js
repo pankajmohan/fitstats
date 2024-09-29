@@ -8,15 +8,17 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className=''>
-    <Header></Header>
-    <BrowserRouter>
-      <Navbar></Navbar>
-      <Routes>
-      <Route path="/" element={<Protected Component={Dashboard} />} />
-      </Routes>
-    </BrowserRouter>
-    <Footer></Footer>
+    <div className='flex flex-col min-h-screen'>
+      <Header></Header>
+      <BrowserRouter>
+        <Navbar></Navbar>
+        <div className='flex-grow'>
+        <Routes>
+          <Route path="/" element={<Protected Component={Dashboard} />} />
+        </Routes>
+        </div>
+      </BrowserRouter>
+      <Footer></Footer>
 
     </div>
   )
