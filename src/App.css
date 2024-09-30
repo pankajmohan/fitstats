@@ -16,6 +16,13 @@
 .nav-bar-link.active{
   @apply bg-yellow-300;
 } 
+/* styles.css */
+.custom-option {
+  @apply bg-yellow-200 text-yellow-700;
+}
+.custom-option:hover {
+  @apply bg-yellow-300;
+}
 
 .App-header {
   background-color: #282c34;
