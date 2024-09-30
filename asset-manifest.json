@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/fitstats/static/css/main.a4ea9602.css",
+    "main.js": "/fitstats/static/js/main.4edad072.js",
+    "static/js/453.5eb8bbd8.chunk.js": "/fitstats/static/js/453.5eb8bbd8.chunk.js",
+    "static/media/tree-logo.jpeg": "/fitstats/static/media/tree-logo.5bdac919b7cbad9ae440.jpeg",
+    "index.html": "/fitstats/index.html",
+    "main.a4ea9602.css.map": "/fitstats/static/css/main.a4ea9602.css.map",
+    "main.4edad072.js.map": "/fitstats/static/js/main.4edad072.js.map",
+    "453.5eb8bbd8.chunk.js.map": "/fitstats/static/js/453.5eb8bbd8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4ea9602.css",
+    "static/js/main.4edad072.js"
+  ]
+}
