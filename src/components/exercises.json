@@ -1,0 +1,45 @@
+{
+    "Shoulders": [
+      {"exercise": "Overhead Press", "description": "Great for overall shoulder development"},
+      {"exercise": "Lateral Raises", "description": "Targets the side delts"},
+      {"exercise": "Front Raises", "description": "Focuses on the front delts"},
+      {"exercise": "Arnold Press", "description": "Engages multiple parts of the shoulder"},
+      {"exercise": "Reverse Pec Deck Fly", "description": "Works the rear delts"}
+    ],
+    "Chest": [
+      {"exercise": "Bench Press", "description": "A staple for chest workouts"},
+      {"exercise": "Incline Bench Press", "description": "Targets the upper chest"},
+      {"exercise": "Chest Flyes", "description": "Stretches and works the chest muscles"},
+      {"exercise": "Push-Ups", "description": "A versatile bodyweight exercise"},
+      {"exercise": "Dips", "description": "Great for lower chest and triceps"}
+    ],
+    "Back": [
+      {"exercise": "Pull-Ups", "description": "Excellent for upper back and lats"},
+      {"exercise": "Deadlifts", "description": "Works the entire back and posterior chain"},
+      {"exercise": "Bent-Over Rows", "description": "Targets the middle back"},
+      {"exercise": "Lat Pulldowns", "description": "Focuses on the lats"},
+      {"exercise": "T-Bar Rows", "description": "Great for thickness in the back"}
+    ],
+    "Arms": [
+      {"exercise": "Bicep Curls", "description": "Classic exercise for biceps"},
+      {"exercise": "Tricep Dips", "description": "Effective for triceps"},
+      {"exercise": "Hammer Curls", "description": "Targets the brachialis muscle"},
+      {"exercise": "Skull Crushers", "description": "Isolates the triceps"},
+      {"exercise": "Concentration Curls", "description": "Focuses on the peak of the biceps"}
+    ],
+    "Legs": [
+      {"exercise": "Squats", "description": "The king of leg exercises"},
+      {"exercise": "Lunges", "description": "Great for quads and glutes"},
+      {"exercise": "Leg Press", "description": "Effective for overall leg development"},
+      {"exercise": "Romanian Deadlifts", "description": "Targets the hamstrings"},
+      {"exercise": "Calf Raises", "description": "Focuses on the calf muscles"}
+    ],
+    "Core": [
+      {"exercise": "Planks", "description": "Excellent for core stability"},
+      {"exercise": "Russian Twists", "description": "Targets the obliques"},
+      {"exercise": "Leg Raises", "description": "Works the lower abs"},
+      {"exercise": "Bicycle Crunches", "description": "Engages the entire core"},
+      {"exercise": "Mountain Climbers", "description": "Great for core and cardio"}
+    ]
+  }
+  

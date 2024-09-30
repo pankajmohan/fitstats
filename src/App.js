@@ -4,7 +4,9 @@ import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Protected from "./components/Protected";
 import Dashboard from './components/Dashboard';
+import Addnewexercise from './components/Addnewexercise';
 import Navbar from "./components/Navbar";
+import Startnewworkout from './components/Startnewworkout';
 
 export default function App() {
   return (
@@ -14,7 +16,9 @@ export default function App() {
         <Navbar></Navbar>
         <div className='flex-grow'>
         <Routes>
-          <Route path="/" element={<Protected Component={Dashboard} />} />
+        <Route path="/" element={<Protected Component={Dashboard} />} />
+        <Route path="/addexercises" element={<Protected Component={Addnewexercise} />} />
+        <Route path="/startnewworkout" element={<Protected Component={Startnewworkout} />} />
         </Routes>
         </div>
       </BrowserRouter>
