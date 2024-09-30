@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/fitstats/static/css/main.bcbf2158.css",
-    "main.js": "/fitstats/static/js/main.5a53c5c1.js",
+    "main.js": "/fitstats/static/js/main.039bb2e8.js",
     "static/js/453.5eb8bbd8.chunk.js": "/fitstats/static/js/453.5eb8bbd8.chunk.js",
     "static/media/tree-logo.jpeg": "/fitstats/static/media/tree-logo.5bdac919b7cbad9ae440.jpeg",
     "index.html": "/fitstats/index.html",
     "main.bcbf2158.css.map": "/fitstats/static/css/main.bcbf2158.css.map",
-    "main.5a53c5c1.js.map": "/fitstats/static/js/main.5a53c5c1.js.map",
+    "main.039bb2e8.js.map": "/fitstats/static/js/main.039bb2e8.js.map",
     "453.5eb8bbd8.chunk.js.map": "/fitstats/static/js/453.5eb8bbd8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bcbf2158.css",
-    "static/js/main.5a53c5c1.js"
+    "static/js/main.039bb2e8.js"
   ]
 }
