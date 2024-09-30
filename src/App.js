@@ -16,7 +16,7 @@ export default function App() {
         <Navbar></Navbar>
         <div className='flex-grow'>
         <Routes>
-        <Route path="/" element={<Protected Component={Dashboard} />} />
+        <Route path="/fitstats" element={<Protected Component={Dashboard} />} />
         <Route path="/addexercises" element={<Protected Component={Addnewexercise} />} />
         <Route path="/startnewworkout" element={<Protected Component={Startnewworkout} />} />
         </Routes>

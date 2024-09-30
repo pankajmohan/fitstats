@@ -8,11 +8,11 @@ function Addnewexercise() {
                     <div className="px-4">
                         <div className="flex items-center my-4">
                             <label className="w-1/4">Exercise name</label>
-                            <input type="text" name="exercisename" className="border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg" />
+                            <input type="text" name="exercisename" className="border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg px-2" />
                         </div>
                         <div className="flex items-center">
                             <label className="w-1/4">Exercise Type</label>
-                            <select type="text" name="exercisetype" className="border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg">
+                            <select type="text" name="exercisetype" className="border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg px-2">
                                 <option value="">Please select a exercise type</option>
                                 <option value="Chest">Chest</option>
                                 <option value="Back">Back</option>
