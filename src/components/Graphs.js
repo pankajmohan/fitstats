@@ -1,40 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 
 const Graphs = ({ workoutData }) => {
-  const [selectedBodyPart, setSelectedBodyPart] = useState('Shoulders'); // Default to Shoulders
-    console.log(workoutData);
-    
+  const [selectedBodyPart, setSelectedBodyPart] = useState('');
+
+  useEffect(() => {
+    const bodyParts = getUniqueBodyParts(workoutData);
+    if (bodyParts.length > 0) {
+      setSelectedBodyPart(bodyParts[0]); // Set to the first available body part
+    }
+  }, [workoutData]);
+
+  function getUniqueBodyParts(data) {
+    const bodyParts = new Set();
+    Object.values(data).forEach(exercises => {
+      exercises.forEach(({ bodypart }) => {
+        bodyParts.add(bodypart);
+      });
+    });
+    return Array.from(bodyParts);
+  }
+
   function prepareGraphData(data) {
     const exerciseData = {};
-  
+
     Object.entries(data).forEach(([date, exercises]) => {
       exercises.forEach(({ bodypart, exercise, sets }) => {
-        // Ensure sets are processed correctly and weights are numbers
         const maxWeight = Math.max(...sets.map(set => parseFloat(set.weight) || 0));
-  
-        // Initialize exerciseData structure
+
         if (!exerciseData[bodypart]) {
           exerciseData[bodypart] = {};
         }
         if (!exerciseData[bodypart][exercise]) {
           exerciseData[bodypart][exercise] = { id: exercise, data: [] };
         }
-  
-        // Push the data point with the date and max weight
+
         exerciseData[bodypart][exercise].data.push({ x: date, y: maxWeight });
       });
     });
-  
-    // Convert exerciseData to a more usable format for the graph
+
     const formattedData = {};
     Object.entries(exerciseData).forEach(([bodypart, exercises]) => {
       formattedData[bodypart] = Object.values(exercises);
     });
-  
+
     return formattedData;
   }
-  
 
   const graphData = prepareGraphData(workoutData);
 
@@ -102,23 +113,21 @@ const Graphs = ({ workoutData }) => {
                   enableGridX={true}
                   enableGridY={true}
                   useMesh={true}
-                  legends={[
-                    {
-                      anchor: 'bottom-right',
-                      direction: 'column',
-                      justify: false,
-                      translateX: 0,
-                      translateY: 0,
-                      itemsSpacing: 2,
-                      itemDirection: 'left-to-right',
-                      itemWidth: 80,
-                      itemHeight: 20,
-                      itemOpacity: 0.85,
-                      symbolSize: 12,
-                      symbolShape: 'circle',
-                      symbolBorderColor: 'rgba(0, 0, 0, .5)',
-                    },
-                  ]}
+                  legends={[{
+                    anchor: 'bottom-right',
+                    direction: 'column',
+                    justify: false,
+                    translateX: 0,
+                    translateY: 0,
+                    itemsSpacing: 2,
+                    itemDirection: 'left-to-right',
+                    itemWidth: 80,
+                    itemHeight: 20,
+                    itemOpacity: 0.85,
+                    symbolSize: 12,
+                    symbolShape: 'circle',
+                    symbolBorderColor: 'rgba(0, 0, 0, .5)',
+                  }]}
                 />
               </div>
             </div>
