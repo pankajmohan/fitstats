@@ -3,7 +3,8 @@ import { ResponsiveLine } from '@nivo/line';
 
 const Graphs = ({ workoutData }) => {
   const [selectedBodyPart, setSelectedBodyPart] = useState('Shoulders'); // Default to Shoulders
-
+    console.log(workoutData);
+    
   function prepareGraphData(data) {
     const exerciseData = {};
   
