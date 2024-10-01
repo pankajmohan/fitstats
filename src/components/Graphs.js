@@ -55,60 +55,65 @@ const Graphs = ({ workoutData }) => {
         ))}
       </div>
 
-      {/* Selected Body Part Graphs */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-yellow-400 p-4 rounded-lg">
-        {Object.values(graphData[selectedBodyPart] || {}).map((exercise, index) => (
-          <div key={index} className="bg-yellow-200 p-4 rounded-lg">
-            <h3 className="text-lg font-semibold mb-2">{exercise.id}</h3>
-            <div style={{ height: '300px' }}>
-              <ResponsiveLine
-                data={[exercise]}
-                margin={{ top: 20, right: 20, bottom: 50, left: 60 }}
-                xScale={{ type: 'point' }}
-                yScale={{ type: 'linear', min: 0, max: 'auto', stacked: false, reverse: false }}
-                axisBottom={{
-                  tickValues: 'every 1 days',
-                  legend: 'Date',
-                  legendOffset: 36,
-                  legendPosition: 'middle',
-                }}
-                axisLeft={{
-                  legend: 'Weight (lbs)',
-                  legendOffset: -40,
-                  legendPosition: 'middle',
-                }}
-                enablePoints={true}
-                pointSize={10}
-                pointColor={{ from: 'color', modifiers: [] }}
-                pointBorderWidth={2}
-                pointBorderColor={{ from: 'serieColor' }}
-                colors={[getLineColor(exercise.id)]}
-                enableArea={false}
-                enableGridX={true}
-                enableGridY={true}
-                useMesh={true}
-                legends={[
-                  {
-                    anchor: 'bottom-right',
-                    direction: 'column',
-                    justify: false,
-                    translateX: 0,
-                    translateY: 0,
-                    itemsSpacing: 2,
-                    itemDirection: 'left-to-right',
-                    itemWidth: 80,
-                    itemHeight: 20,
-                    itemOpacity: 0.85,
-                    symbolSize: 12,
-                    symbolShape: 'circle',
-                    symbolBorderColor: 'rgba(0, 0, 0, .5)',
-                  },
-                ]}
-              />
+      {/* Check for workout data */}
+      {Object.keys(graphData).length === 0 ? (
+        <div className="text-center text-lg text-gray-600">No workouts available</div>
+      ) : (
+        // Selected Body Part Graphs
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 bg-yellow-400 p-4 rounded-lg">
+          {Object.values(graphData[selectedBodyPart] || {}).map((exercise, index) => (
+            <div key={index} className="bg-yellow-200 p-4 rounded-lg">
+              <h3 className="text-lg font-semibold mb-2">{exercise.id}</h3>
+              <div style={{ height: '300px' }}>
+                <ResponsiveLine
+                  data={[exercise]}
+                  margin={{ top: 20, right: 20, bottom: 50, left: 60 }}
+                  xScale={{ type: 'point' }}
+                  yScale={{ type: 'linear', min: 0, max: 'auto', stacked: false, reverse: false }}
+                  axisBottom={{
+                    tickValues: 'every 1 days',
+                    legend: 'Date',
+                    legendOffset: 36,
+                    legendPosition: 'middle',
+                  }}
+                  axisLeft={{
+                    legend: 'Weight (lbs)',
+                    legendOffset: -40,
+                    legendPosition: 'middle',
+                  }}
+                  enablePoints={true}
+                  pointSize={10}
+                  pointColor={{ from: 'color', modifiers: [] }}
+                  pointBorderWidth={2}
+                  pointBorderColor={{ from: 'serieColor' }}
+                  colors={[getLineColor(exercise.id)]}
+                  enableArea={false}
+                  enableGridX={true}
+                  enableGridY={true}
+                  useMesh={true}
+                  legends={[
+                    {
+                      anchor: 'bottom-right',
+                      direction: 'column',
+                      justify: false,
+                      translateX: 0,
+                      translateY: 0,
+                      itemsSpacing: 2,
+                      itemDirection: 'left-to-right',
+                      itemWidth: 80,
+                      itemHeight: 20,
+                      itemOpacity: 0.85,
+                      symbolSize: 12,
+                      symbolShape: 'circle',
+                      symbolBorderColor: 'rgba(0, 0, 0, .5)',
+                    },
+                  ]}
+                />
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 };
