@@ -25,27 +25,35 @@ const Graphs = ({ workoutData }) => {
     const exerciseData = {};
 
     Object.entries(data).forEach(([date, exercises]) => {
-      exercises.forEach(({ bodypart, exercise, sets }) => {
-        const maxWeight = Math.max(...sets.map(set => parseFloat(set.weight) || 0));
+        exercises.forEach(({ bodypart, exercise, sets }) => {
+            const maxWeight = Math.max(...sets.map(set => parseFloat(set.weight) || 0));
 
-        if (!exerciseData[bodypart]) {
-          exerciseData[bodypart] = {};
-        }
-        if (!exerciseData[bodypart][exercise]) {
-          exerciseData[bodypart][exercise] = { id: exercise, data: [] };
-        }
+            // Initialize exerciseData structure
+            if (!exerciseData[bodypart]) {
+                exerciseData[bodypart] = {};
+            }
+            if (!exerciseData[bodypart][exercise]) {
+                exerciseData[bodypart][exercise] = { id: exercise, data: [] };
+            }
 
-        exerciseData[bodypart][exercise].data.push({ x: date, y: maxWeight });
-      });
+            // Push the data point with the date (converted to timestamp) and max weight
+            exerciseData[bodypart][exercise].data.push({ x: new Date(date).getTime(), y: maxWeight });
+        });
     });
 
+    // Convert exerciseData to a more usable format for the graph and sort by date
     const formattedData = {};
     Object.entries(exerciseData).forEach(([bodypart, exercises]) => {
-      formattedData[bodypart] = Object.values(exercises);
+        formattedData[bodypart] = Object.values(exercises).map(exercise => {
+            // Sort the exercise data by date
+            exercise.data.sort((a, b) => a.x - b.x);
+            return exercise;
+        });
     });
 
     return formattedData;
-  }
+}
+
 
   const graphData = prepareGraphData(workoutData);
 
