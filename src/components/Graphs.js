@@ -101,6 +101,7 @@ const Graphs = ({ workoutData }) => {
                   xScale={{ type: 'point' }}
                   yScale={{ type: 'linear', min: 0, max: 'auto', stacked: false, reverse: false }}
                   axisBottom={{
+                    format: value => new Intl.DateTimeFormat('en-US').format(new Date(value)),
                     tickValues: 'every 1 days',
                     legend: 'Date',
                     legendOffset: 36,
