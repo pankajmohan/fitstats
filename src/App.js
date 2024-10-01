@@ -7,19 +7,22 @@ import Dashboard from './components/Dashboard';
 import Addnewexercise from './components/Addnewexercise';
 import Navbar from "./components/Navbar";
 import Startnewworkout from './components/Startnewworkout';
+import Graphs from './components/Graphs';
+import GraphDashboard from './components/GraphDashboard';
 
 export default function App() {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Header></Header>
       <BrowserRouter>
+        <Header></Header>
         <Navbar></Navbar>
         <div className='flex-grow'>
-        <Routes>
-        <Route path="/fitstats" element={<Protected Component={Dashboard} />} />
-        <Route path="/addexercises" element={<Protected Component={Addnewexercise} />} />
-        <Route path="/startnewworkout" element={<Protected Component={Startnewworkout} />} />
-        </Routes>
+          <Routes>
+            <Route path="/fitstats" element={<Protected Component={GraphDashboard} />} />
+            <Route path="/history" element={<Protected Component={Dashboard} />} />
+            <Route path="/addexercises" element={<Protected Component={Addnewexercise} />} />
+            <Route path="/startnewworkout" element={<Protected Component={Startnewworkout} />} />
+          </Routes>
         </div>
       </BrowserRouter>
       <Footer></Footer>

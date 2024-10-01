@@ -1,10 +1,15 @@
+// import usersexercises from  "./usersexercises.json"
 import { useEffect, useState } from "react";
 
 function Dashboard() {
     const [existingWorkouts, setExistingworkout] = useState({});
 
     useEffect(() => {
+        
         const newexistingWorkouts = JSON.parse(localStorage.getItem('workouts')) || {};
+        // const newexistingWorkouts = JSON.parse(JSON.stringify(usersexercises)) || {};
+        // console.log(JSON.stringify(usersexercises));
+        
         setExistingworkout(newexistingWorkouts);
     }, []);
 

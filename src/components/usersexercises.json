@@ -1,0 +1,136 @@
+{
+    "2024-09-01": [
+      {"bodypart": "Shoulders", "exercise": "Overhead Press", "sets": [{"weight": "40", "reps": "10"}, {"weight": "45", "reps": "8"}, {"weight": "50", "reps": "6"}]},
+      {"bodypart": "Chest", "exercise": "Bench Press", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Deadlifts", "sets": [{"weight": "80", "reps": "10"}, {"weight": "85", "reps": "8"}, {"weight": "90", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Squats", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Planks", "sets": [{"weight": "", "reps": "60"}, {"weight": "", "reps": "45"}, {"weight": "", "reps": "30"}]}
+    ],
+    "2024-09-02": [
+      {"bodypart": "Arms", "exercise": "Bicep Curls", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Incline Bench Press", "sets": [{"weight": "55", "reps": "10"}, {"weight": "60", "reps": "8"}, {"weight": "65", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Pull-Ups", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Lunges", "sets": [{"weight": "15", "reps": "12"}, {"weight": "20", "reps": "10"}, {"weight": "25", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Russian Twists", "sets": [{"weight": "10", "reps": "15"}, {"weight": "12", "reps": "12"}, {"weight": "15", "reps": "10"}]}
+    ],
+    "2024-09-03": [
+      {"bodypart": "Shoulders", "exercise": "Lateral Raises", "sets": [{"weight": "15", "reps": "12"}, {"weight": "17", "reps": "10"}, {"weight": "20", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Chest Flyes", "sets": [{"weight": "30", "reps": "10"}, {"weight": "32", "reps": "8"}, {"weight": "35", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Lat Pulldowns", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Leg Press", "sets": [{"weight": "90", "reps": "10"}, {"weight": "95", "reps": "8"}, {"weight": "100", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Leg Raises", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-04": [
+      {"bodypart": "Arms", "exercise": "Tricep Dips", "sets": [{"weight": "0", "reps": "12"}, {"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Dips", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Bent-Over Rows", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Romanian Deadlifts", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Mountain Climbers", "sets": [{"weight": "", "reps": "30"}, {"weight": "", "reps": "25"}, {"weight": "", "reps": "20"}]}
+    ],
+    "2024-09-05": [
+      {"bodypart": "Shoulders", "exercise": "Front Raises", "sets": [{"weight": "10", "reps": "12"}, {"weight": "12", "reps": "10"}, {"weight": "15", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Push-Ups", "sets": [{"weight": "0", "reps": "15"}, {"weight": "0", "reps": "12"}, {"weight": "0", "reps": "10"}]},
+      {"bodypart": "Back", "exercise": "T-Bar Rows", "sets": [{"weight": "75", "reps": "10"}, {"weight": "80", "reps": "8"}, {"weight": "85", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Calf Raises", "sets": [{"weight": "25", "reps": "12"}, {"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Bicycle Crunches", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-06": [
+      {"bodypart": "Arms", "exercise": "Hammer Curls", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Incline Bench Press", "sets": [{"weight": "55", "reps": "10"}, {"weight": "60", "reps": "8"}, {"weight": "65", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Deadlifts", "sets": [{"weight": "90", "reps": "10"}, {"weight": "95", "reps": "8"}, {"weight": "100", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Lunges", "sets": [{"weight": "15", "reps": "12"}, {"weight": "20", "reps": "10"}, {"weight": "25", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Russian Twists", "sets": [{"weight": "10", "reps": "15"}, {"weight": "12", "reps": "12"}, {"weight": "15", "reps": "10"}]}
+    ],
+    "2024-09-07": [
+      {"bodypart": "Shoulders", "exercise": "Arnold Press", "sets": [{"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}, {"weight": "40", "reps": "6"}]},
+      {"bodypart": "Chest", "exercise": "Chest Flyes", "sets": [{"weight": "30", "reps": "10"}, {"weight": "32", "reps": "8"}, {"weight": "35", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Lat Pulldowns", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Leg Press", "sets": [{"weight": "90", "reps": "10"}, {"weight": "95", "reps": "8"}, {"weight": "100", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Leg Raises", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-08": [
+      {"bodypart": "Arms", "exercise": "Skull Crushers", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Bench Press", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Bent-Over Rows", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Squats", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Planks", "sets": [{"weight": "", "reps": "60"}, {"weight": "", "reps": "45"}, {"weight": "", "reps": "30"}]}
+    ],
+    "2024-09-09": [
+      {"bodypart": "Shoulders", "exercise": "Lateral Raises", "sets": [{"weight": "15", "reps": "12"}, {"weight": "17", "reps": "10"}, {"weight": "20", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Incline Bench Press", "sets": [{"weight": "55", "reps": "10"}, {"weight": "60", "reps": "8"}, {"weight": "65", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Pull-Ups", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Lunges", "sets": [{"weight": "15", "reps": "12"}, {"weight": "20", "reps": "10"}, {"weight": "25", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Mountain Climbers", "sets": [{"weight": "", "reps": "30"}, {"weight": "", "reps": "25"}, {"weight": "", "reps": "20"}]}
+    ],
+    "2024-09-10": [
+      {"bodypart": "Arms", "exercise": "Bicep Curls", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Dips", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Deadlifts", "sets": [{"weight": "80", "reps": "10"}, {"weight": "85", "reps": "8"}, {"weight": "90", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Calf Raises", "sets": [{"weight": "25", "reps": "12"}, {"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Bicycle Crunches", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-11": [
+      {"bodypart": "Shoulders", "exercise": "Front Raises", "sets": [{"weight": "10", "reps": "12"}, {"weight": "12", "reps": "10"}, {"weight": "15", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Chest Flyes", "sets": [{"weight": "30", "reps": "10"}, {"weight": "32", "reps": "8"}, {"weight": "35", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Bent-Over Rows", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Squats", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Planks", "sets": [{"weight": "", "reps": "60"}, {"weight": "", "reps": "45"}, {"weight": "", "reps": "30"}]}
+    ],
+    "2024-09-12": [
+      {"bodypart": "Arms", "exercise": "Hammer Curls", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Bench Press", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Lat Pulldowns", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Lunges", "sets": [{"weight": "15", "reps": "12"}, {"weight": "20", "reps": "10"}, {"weight": "25", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Russian Twists", "sets": [{"weight": "10", "reps": "15"}, {"weight": "12", "reps": "12"}, {"weight": "15", "reps": "10"}]}
+    ],
+    "2024-09-13": [
+      {"bodypart": "Shoulders", "exercise": "Overhead Press", "sets": [{"weight": "40", "reps": "10"}, {"weight": "45", "reps": "8"}, {"weight": "50", "reps": "6"}]},
+      {"bodypart": "Chest", "exercise": "Incline Bench Press", "sets": [{"weight": "55", "reps": "10"}, {"weight": "60", "reps": "8"}, {"weight": "65", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Pull-Ups", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Calf Raises", "sets": [{"weight": "25", "reps": "12"}, {"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Bicycle Crunches", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-14": [
+      {"bodypart": "Arms", "exercise": "Tricep Dips", "sets": [{"weight": "0", "reps": "12"}, {"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Dips", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Deadlifts", "sets": [{"weight": "80", "reps": "10"}, {"weight": "85", "reps": "8"}, {"weight": "90", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Romanian Deadlifts", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Planks", "sets": [{"weight": "", "reps": "60"}, {"weight": "", "reps": "45"}, {"weight": "", "reps": "30"}]}
+    ],
+    "2024-09-15": [
+      {"bodypart": "Shoulders", "exercise": "Reverse Pec Deck Fly", "sets": [{"weight": "15", "reps": "12"}, {"weight": "17", "reps": "10"}, {"weight": "20", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Chest Flyes", "sets": [{"weight": "30", "reps": "10"}, {"weight": "32", "reps": "8"}, {"weight": "35", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "T-Bar Rows", "sets": [{"weight": "75", "reps": "10"}, {"weight": "80", "reps": "8"}, {"weight": "85", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Leg Press", "sets": [{"weight": "90", "reps": "10"}, {"weight": "95", "reps": "8"}, {"weight": "100", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Leg Raises", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-16": [
+      {"bodypart": "Arms", "exercise": "Concentration Curls", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Incline Bench Press", "sets": [{"weight": "55", "reps": "10"}, {"weight": "60", "reps": "8"}, {"weight": "65", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Bent-Over Rows", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Squats", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Bicycle Crunches", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ],
+    "2024-09-17": [
+      {"bodypart": "Shoulders", "exercise": "Arnold Press", "sets": [{"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}, {"weight": "40", "reps": "6"}]},
+      {"bodypart": "Chest", "exercise": "Bench Press", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Deadlifts", "sets": [{"weight": "80", "reps": "10"}, {"weight": "85", "reps": "8"}, {"weight": "90", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Lunges", "sets": [{"weight": "15", "reps": "12"}, {"weight": "20", "reps": "10"}, {"weight": "25", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Mountain Climbers", "sets": [{"weight": "", "reps": "30"}, {"weight": "", "reps": "25"}, {"weight": "", "reps": "20"}]}
+    ],
+    "2024-09-18": [
+      {"bodypart": "Arms", "exercise": "Skull Crushers", "sets": [{"weight": "20", "reps": "12"}, {"weight": "22", "reps": "10"}, {"weight": "24", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Push-Ups", "sets": [{"weight": "0", "reps": "15"}, {"weight": "0", "reps": "12"}, {"weight": "0", "reps": "10"}]},
+      {"bodypart": "Back", "exercise": "Lat Pulldowns", "sets": [{"weight": "60", "reps": "10"}, {"weight": "65", "reps": "8"}, {"weight": "70", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Calf Raises", "sets": [{"weight": "25", "reps": "12"}, {"weight": "30", "reps": "10"}, {"weight": "35", "reps": "8"}]},
+      {"bodypart": "Core", "exercise": "Planks", "sets": [{"weight": "", "reps": "60"}, {"weight": "", "reps": "45"}, {"weight": "", "reps": "30"}]}
+    ],
+    "2024-09-19": [
+      {"bodypart": "Shoulders", "exercise": "Lateral Raises", "sets": [{"weight": "15", "reps": "12"}, {"weight": "17", "reps": "10"}, {"weight": "20", "reps": "8"}]},
+      {"bodypart": "Chest", "exercise": "Chest Flyes", "sets": [{"weight": "30", "reps": "10"}, {"weight": "32", "reps": "8"}, {"weight": "35", "reps": "6"}]},
+      {"bodypart": "Back", "exercise": "Pull-Ups", "sets": [{"weight": "0", "reps": "10"}, {"weight": "0", "reps": "8"}, {"weight": "0", "reps": "6"}]},
+      {"bodypart": "Legs", "exercise": "Squats", "sets": [{"weight": "70", "reps": "10"}, {"weight": "75", "reps": "8"}, {"weight": "80", "reps": "6"}]},
+      {"bodypart": "Core", "exercise": "Leg Raises", "sets": [{"weight": "", "reps": "15"}, {"weight": "", "reps": "12"}, {"weight": "", "reps": "10"}]}
+    ]
+}
+  
