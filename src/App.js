@@ -7,7 +7,6 @@ import Dashboard from './components/Dashboard';
 import Addnewexercise from './components/Addnewexercise';
 import Navbar from "./components/Navbar";
 import Startnewworkout from './components/Startnewworkout';
-import Graphs from './components/Graphs';
 import GraphDashboard from './components/GraphDashboard';
 
 export default function App() {

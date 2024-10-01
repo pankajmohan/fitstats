@@ -1,9 +1,14 @@
 
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Graphs from "./Graphs";
 function GraphDashboard() {
-
-    const newexistingWorkouts = JSON.parse(localStorage.getItem('workouts')) || {};
+    const [workouts,setWorkouts] = useState({}); 
+    useEffect(() => {
+        // const workouts = ;
+        setWorkouts(JSON.parse(localStorage.getItem('workouts')));
+      }, []);
+      
+    const newexistingWorkouts = workouts || {};
 
 return(<div>
 <Graphs workoutData={newexistingWorkouts} />

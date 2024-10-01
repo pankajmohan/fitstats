@@ -10,7 +10,7 @@ function Startnewworkout() {
     const [exercises, setExercises] = useState([]);
     const [bodypart, setBodypart] = useState("");
     const [exercise, setExercise] = useState("");
-    const [sets, setSets] = useState([{ weight: "", reps: "" }]);
+    const [sets, setSets] = useState([{ weight: "0", reps: "0" }]); // Initialize with default values
 
     const keys = Object.keys(Exercises);
 
@@ -32,7 +32,7 @@ function Startnewworkout() {
     }
 
     function addSet() {
-        setSets([...sets, { weight: "", reps: "" }]);
+        setSets([...sets, { weight: "0", reps: "0" }]); // Initialize new set with default values
     }
 
     function removeSet(index) {
@@ -42,11 +42,17 @@ function Startnewworkout() {
     function handleSubmit(e) {
         e.preventDefault();
 
+        // Validate inputs
+        if (!bodypart || !exercise || sets.some(set => !set.weight || !set.reps)) {
+            alert("Please fill out all fields correctly.");
+            return;
+        }
+
         // Create the workout details structure
         const workoutDetails = {
-            bodypart: bodypart,
-            exercise: exercise,
-            sets: sets
+            bodypart,
+            exercise,
+            sets
         };
 
         // Get existing workouts from localStorage (or initialize an empty object)
@@ -54,7 +60,12 @@ function Startnewworkout() {
 
         // Check if a workout already exists for the selected date
         if (existingWorkouts[date]) {
-            existingWorkouts[date].push(workoutDetails);
+            const existingWorkout = existingWorkouts[date].find(w => w.exercise === exercise);
+            if (existingWorkout) {
+                existingWorkout.sets.push(...sets); // Append new sets
+            } else {
+                existingWorkouts[date].push(workoutDetails);
+            }
         } else {
             existingWorkouts[date] = [workoutDetails];
         }
@@ -80,7 +91,7 @@ function Startnewworkout() {
                                 value={date}
                                 onChange={(e) => setDate(e.target.value)}
                                 max={today} // Restrict input to today or earlier
-                                className="bg-yellow-100 border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg px-2 "
+                                className="bg-yellow-100 border-4 border-yellow-300 flex-grow p-2 hover:border-yellow-500 focus:border-yellow-500 focus:outline-none rounded-lg px-2"
                             />
                         </div>
                         {/* Body part Selection */}

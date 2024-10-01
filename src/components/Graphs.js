@@ -6,24 +6,34 @@ const Graphs = ({ workoutData }) => {
 
   function prepareGraphData(data) {
     const exerciseData = {};
-
+  
     Object.entries(data).forEach(([date, exercises]) => {
       exercises.forEach(({ bodypart, exercise, sets }) => {
-        const maxWeight = Math.max(...sets.map(set => parseInt(set.weight) || 0));
-
+        // Ensure sets are processed correctly and weights are numbers
+        const maxWeight = Math.max(...sets.map(set => parseFloat(set.weight) || 0));
+  
+        // Initialize exerciseData structure
         if (!exerciseData[bodypart]) {
           exerciseData[bodypart] = {};
         }
         if (!exerciseData[bodypart][exercise]) {
           exerciseData[bodypart][exercise] = { id: exercise, data: [] };
         }
-
+  
+        // Push the data point with the date and max weight
         exerciseData[bodypart][exercise].data.push({ x: date, y: maxWeight });
       });
     });
-
-    return exerciseData;
+  
+    // Convert exerciseData to a more usable format for the graph
+    const formattedData = {};
+    Object.entries(exerciseData).forEach(([bodypart, exercises]) => {
+      formattedData[bodypart] = Object.values(exercises);
+    });
+  
+    return formattedData;
   }
+  
 
   const graphData = prepareGraphData(workoutData);
 
